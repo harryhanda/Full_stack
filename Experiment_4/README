@@ -1,0 +1,71 @@
+# Travel Bucket List — Experiment 4
+
+## Project Overview
+
+This project is an enhanced version of the Travel Bucket List web application built using React.
+In Experiment 4, the application architecture was upgraded to implement advanced React concepts such as global state management, structured reducers, performance optimization, and proper multi-page routing.
+
+The UI design from Experiment 3 has been preserved while improving the internal code structure and scalability.
+
+## Experiment 4 Enhancements
+
+The following improvements were implemented:
+
+* Integrated React Router for proper multi-page navigation
+* Implemented Context API (useContext) for global state management
+* Added useReducer for structured wishlist state updates
+* Used useMemo for optimizing derived computations
+* Created a new Analytics page demonstrating reducer and memo usage
+* Maintained consistent and responsive UI design
+* Improved overall project scalability and maintainability
+
+## Key Features
+
+* Multi-page navigation (Home, Explore, Wishlist, Analytics)
+* Global Wishlist management
+* Optimized calculations using useMemo
+* Modern responsive UI with Material UI and Bootstrap
+* Centralized state using Context and Reducer
+
+## Folder Structure
+
+src/
+├── components/
+├── context/
+│   └── AppContext.jsx
+├── reducer/
+│   └── appReducer.js
+├── pages/
+│   ├── Home.jsx
+│   ├── Explore.jsx
+│   ├── Wishlist.jsx
+│   └── Analytics.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+## Tech Stack
+* React
+* React Router DOM
+* Context API
+* useReducer
+* useMemo
+* Material UI
+* React Bootstrap
+* Vite
+---
+## How to Run Locall
+```bash
+npm install
+npm run dev
+```
+---
+## Author
+
+Name: Harinder singh 
+Course: CSE AI
+Experiment: Full Stack — Experiment 4
+UID - 23BAI70268
+
+This project demonstrates scalable React architecture using modern hooks and routing techniques.
